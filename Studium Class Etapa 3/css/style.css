@@ -1,0 +1,251 @@
+
+/* ************ HTML ************ */
+html{
+    height:100%
+}
+
+/* ************ BODY ************ */
+body{
+    /* font-family: 'EB Garamond', serif; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+
+}
+
+/* ************ HEADERS ************ */
+
+header{
+
+    background-color: #8b9dc3;
+    align-self: stretch;
+    border-bottom: .3rem solid #000000;
+    flex-grow: .2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Página Inicial */
+
+    .avatar{
+        
+        width: 6rem;
+        height: 5.8rem;
+        border-radius: 50%;
+        margin: 1rem;
+
+    }
+    .user{
+        font-weight: bold;
+        text-align: center;
+    }
+    .turma{
+        text-align: center;
+    }
+
+/* Matérias */
+
+    .materias{
+        font-size: 2.5rem;
+        padding: 2rem;
+    }
+
+/* Monitor */
+    .header_monitor{
+        font-size: 2.5rem;
+        text-align: center;
+        padding: 2rem;
+    }
+
+/* Perguntas */
+    .header_pergunta{
+    
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+
+/* ***************   Mains ***************  */
+
+
+main{
+    align-self: stretch;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{ 
+    
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+li{
+    
+    font-size: 3rem;
+    border: solid black;
+    border-radius: .5rem;
+    padding: .5rem;
+    background-color:#f7f7f7;
+    color: #000000;
+
+}
+
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    /* font-weight: bold; */
+
+}
+.opensans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Matérias */
+
+    .ul_materias{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .li_materias{
+        
+        font-size: 2rem;
+        margin-bottom: .8rem;
+        
+    }
+/* Aulas */
+    .li_aulas{
+        font-size: 2rem;
+        margin: 0 2rem .8rem ;
+        
+    
+    }
+/* Monitor */
+    .monitor{
+        font-size: 2rem;
+        margin: 2.5rem;
+        padding: 2rem;
+
+    }
+    .n_verificada{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        
+      
+
+    }
+    .n_verificada_legenda{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: .5rem;
+    }
+    .exclamacao{
+        
+        width: 2rem;
+        height: 2rem;
+        border-radius: 90%;
+  
+    }
+
+/* Pergunta */
+    .a_pergunta{
+        text-align: inherit;
+        text-decoration: none;
+        color: inherit;
+    }
+    .ul_pergunta{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        align-self: flex-start;
+        justify-content: flex-start;
+
+    }
+    .li_pergunta{
+        flex-direction: column;
+        width: inherit;
+        text-align: start;
+        border: 0;
+        border-radius: 0;
+        border-bottom: .2rem solid #000000;
+        padding: 0;
+    }
+    .p_pergunta{
+        font-size: 1.5rem;
+    }
+
+    .sub_pergunta{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       
+        font-size: 1.3rem;
+    }
+    .coracao1{
+        font-size: 1.5rem;
+        margin-bottom: .2rem;
+    }
+    .coracao2{
+        font-size: 1.5rem;
+        margin-bottom: .2rem;
+    }
+    .coracao3{
+        font-size: 1.5rem;
+        margin-bottom: .2rem;
+    }
+
+    .resposta{
+        margin-left: 2rem;
+        margin-bottom: .2rem;
+    }
+
+/* Not Found */
+
+
+    .main_notfound{
+        background-color: #3AAD81;
+    }
+    .p_notfound{
+        border: solid black;
+        padding: .5rem;
+        border-radius: .5rem;
+    }
+/* Arquivos */
+
+    .arquivos{
+        font-size: 3rem;
+    }
+    .p_arquivos{
+        font-size: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 10rem;
+    }
+
+
+
+
+
+.h1_notfound{
+    margin: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
