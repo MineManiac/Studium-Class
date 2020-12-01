@@ -241,12 +241,126 @@ a {
         margin-bottom: 10rem;
     }
 
-
-
-
-
 .h1_notfound{
     margin: 1rem;
     text-align: center;
     font-size: 2rem;
+}
+
+
+  /* Detalhes Respostas */
+
+.carmem{
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: flex-start;
+    margin: 1rem;
+}
+
+.li_logaritmos{
+    border: 0;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+.ul_logaritmos{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.h1_resp{
+    font-size: 1.7rem;
+    border-bottom: .2rem solid #000000;
+    font-size: 2rem;
+    border-bottom: .2rem solid black;
+    margin: 1rem;
+    align-self: flex-start;
+    justify-content: flex-start;
+    font-weight: bold;
+}
+
+.h2_resp{
+    font-size: 1.7rem;
+    margin: 1rem;
+    border-bottom: .3rem solid #000000;
+    border-bottom: .1rem solid black;
+    align-self: flex-start;
+    justify-content: flex-start;   
+}
+
+.h3_resp{
+    font-size: 0.9rem;
+    margin: 1rem;
+    align-self: flex-start;
+    justify-content: flex-start;    
+}
+
+input{
+    margin: 1rem;
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.respostas{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    border-bottom: .3rem solid #000000;
+    font-size: 2rem;
+    border-bottom: .2rem solid black;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: .5rem;
+}
+
+.arquivo{
+    margin: 1rem;
+    display: flex;
+    align-items: flex-start;
+    align-self: flex-start;
+    justify-content: flex-start;    
+}
+
+.tamanho_arquivo{
+    width: 3rem;
+    height: auto;
+}
+
+.aba{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+.check{
+    width: 1rem;
+    height: auto;
+}
+
+.resp_ver{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Respostas Marxismo */
+
+.li_verificado{
+    font-size: 1.7rem;
+}
+
+.ul_verificado{
+    margin: 3rem 0;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
