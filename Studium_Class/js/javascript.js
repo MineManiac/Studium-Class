@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-
+// ************** Corações **************
 x=document.querySelector('.coracao1')
 y=document.querySelector('.coracao2')
 z=document.querySelector('.coracao3')
@@ -50,4 +50,7 @@ icone3.addEventListener('click',function(){
     z.innerHTML = 1
 
 })
+
+
+
 })
